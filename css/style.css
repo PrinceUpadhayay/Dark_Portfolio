@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    border: 2px solid red;
+    background-color: black;
+}
+/* .content-wrapper{
+    max-width: 1500px ;
+    margin: 0;
+} */
+
+/* Navbar start here */
+    .navbar-container{
+        /* border: 2px solid black; */
+        width: 10%;
+        /* position: relative; */
+        background-color: #222;
+        /* z-index: 33333; */
+        height: 100%;
+    }
+   
+    .navbar-conatiner-image img{
+        /* border: 2px solid green; */
+        width: 100%;
+    }
+    .navbar-head{
+        /* display: block; */
+        text-align: center;
+        
+    }
+    .navbar-head a{
+        text-decoration: none;
+    }
+    .navbar-head i{
+        font-size: 20px;
+        color: white;
+    }
+    .navbar-head p{
+        padding: 15px;
+        color: white;
+    }
+    
+
+    /* navbar end here */
+
+    /* slider section start here */
+    .slider-container{
+        margin-top: 50px;
+        /* background-color: #222; */
+         margin-left: 150px;
+         margin-right: 150px;
+    }
+    .slider-head{
+        text-align: center;
+        color: white;
+        margin-top: 10px 0;
+    }
+   .slider-head h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+   }
+   .slider-head p{
+    font-size: 15px;
+   }
+    .slider-image img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* slider section end here */
+
+    /* name section start here */
+    .name-container{
+        /* border: 2px solid red; */
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .name-head{
+        /* border: 2px solid greenyellow; */
+        color: white;
+    }
+    .name-head hr{
+        width: 200px;
+        margin: 20px 0;
+    }
+    .name-head h2{
+        font-size: 25px;
+    }
+    .name-head p {
+        margin-top: 10px;
+    }
+
+    /* name section End  here */
+
+    /* skill section start here */
+    .skill-section {
+        padding-bottom: 50px;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    
+    .skill-section h2 {
+        margin-top: 30px;
+        color: white;
+        margin-bottom: 15px;
+    }
+    
+    .skill-section p {
+        padding: 15px 0;
+        color: #757575;
+        letter-spacing: 4px;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .skill-conatiner {
+        background-color: #f1f1f1;
+    }
+    
+    .skill-95 {
+        width: 95%;
+        color: #fff;
+        background-color: #616161;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    .skill-85 {
+        width: 85%;
+        color: #fff;
+        background-color: #616161;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    .skill-80 {
+        width: 80%;
+        color: #fff;
+        background-color: #616161;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    .achievement-section {
+        display: flex;
+        padding: 35px 10px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        color: black;
+        background-color: white;
+        text-align: center;
+    }
+    .achieve-box {
+        width: 100%;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    .whiteshade{
+        padding: 10px 10px;
+    }
+    .whiteshade:hover{
+        cursor: pointer;
+        background-color: #757575;
+    }
+
+/* price section start here */
+
+    .pricing-section {
+        padding-bottom: 60px;
+        margin-left: 150px ;
+        margin-right: 150px;
+    }
+    .pricing-content{
+        display: flex;
+        width: 100%;
+      
+    }
+    .pricing-section h2{
+        color: white;
+    }
+    .price-basic-menu{
+        /* border: 2px solid red; */
+        color: white;
+    }
+    .price-basic-menu {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+    }
+    .pricebasic {
+        background-color:#616161;
+        
+        font-size: 25px;
+        padding: 35px 10px;
+        color: #757575;
+        border: 1px solid #616161;
+        width: 100%;
+        border-bottom: 1px solid #616161;
+    }
+    .price-basic-list {
+        border: 1px solid #ddd;
+        padding: 15px 16px;
+        width: 100%;
+        border-bottom: 1px solid #616161;
+        background-color: grey;
+        color:black;
+    }
+    .price-basic-list h2{
+        background-color: grey;
+        color:black;
+    }
+    .price-box1{
+        width: 50%;
+        padding: 0 10px;
+    }
+    .price-box2{
+        width: 50%;
+        padding: 0 10px;
+    }
+    .price-basic-list button{
+        background-color: grey;
+        color:black;
+        padding:10px 10px;
+        cursor: pointer;
+    }
+    .price-basic-menu button:hover{
+        opacity: 1;
+        color: white;
+        background-color: black;
+    }
+
+    .price-box1 ul:hover{
+        background-color: white;
+    }
+
+    /* price section end here */
+    /* Reputation Start */
+.reputation-section {
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.reputation-section h2 {
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.reputation {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.name-center {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.img-round img {
+    width: 80px;
+    border-radius: 50px;
+
+}
+
+.reputation-container {
+    display: flex;
+}
+.reputation-content {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+
+.reputation-content-span {
+    padding-right: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.reputation-content p {
+    padding: 10px;
+    color: white;
+}
+/* Reputation end */
+
+/* Photo start */
+.photo-section {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: auto;
+
+}
+.photo-heading {
+    color: grey;
+    font-size: 30px;
+}
+.photo-section hr {
+    width: 200px;
+}
+
+.photo-menu {
+    display: flex;
+    margin-bottom: 12px;
+}
+.photo-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    width: 40%
+}
+
+.photo-image-item {
+    width: 100%;
+}
+
+.photo-images img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/* photo End */
+/* contact me start */
+.contactme-section {
+    padding-bottom: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contactme-section h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactme-section hr {
+    width: 200px;
+    
+}
+
+.contactme-section p {
+    color: #757575;
+    padding: 10px;
+
+}
+.contactme-icons-list i {
+    padding-right: 35px;
+    font-size: 30px;
+    color: white;
+}
+/* contactme end here */
+
+/* Start Contact section */
+.contact-section {
+    max-width: 100%;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contact-item {
+    padding: 10px 0px 8px 4px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.contact-item p{
+    color:#757575;
+}
+.btn1 {
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 0px 25px;
+    height: 40px;
+    border: none;
+}
+.btn1:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+/* contact section End */
+/* footerbar start */
+.footer-bar{
+border: 2px solid green;
+}
+
+/* footer bar end */
