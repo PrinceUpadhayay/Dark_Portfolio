@@ -5,7 +5,7 @@
 }
 .main-container{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: black;
 }
 /* .content-wrapper{
@@ -17,7 +17,7 @@
     .navbar-container{
         /* border: 2px solid black; */
         width: 10%;
-        /* position: relative; */
+        position: fixed;
         background-color: #222;
         /* z-index: 33333; */
         height: 100%;
@@ -391,7 +391,26 @@
 /* contact section End */
 /* footerbar start */
 .footer-bar{
-border: 2px solid green;
+    /* border: 2px solid green; */
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+}
+.footer-bar i{
+    color: #757575;
+    padding:3px;
+    font-size: 20px;
+}
+.footer-bar a{
+    color: #757575;
+}
+.footer-bar p{
+    color: #757575;
+    font-size: 18px;
+}
+.footer-bar i:hover{
+    opacity: 0.60;
 }
 
 /* footer bar end */
